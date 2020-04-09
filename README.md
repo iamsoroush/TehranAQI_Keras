@@ -2,8 +2,8 @@
 The goal of this repository is to predict Tehran's **AQI** (**A**ir **Q**uality **I**ndex), using a RNN model implemented in Python-Keras.
 
 By choosing a hard baseline, i.e. predicting the next AQI equal to current AQI, I compared two models:
-1.an **MLP** model and
-2.a recurrent model based on **GRU**(**G**ated **R**ecurrent **U**nit) layer.
+1. an **MLP** model and
+2. a recurrent model based on **GRU**(**G**ated **R**ecurrent **U**nit) layer.
 
 
 # Results
