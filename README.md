@@ -7,7 +7,7 @@ By choosing a hard baseline, i.e. predicting the next AQI equal to current AQI, 
 
 
 # Results
-The results shows that the recurrent model surpasses the MLP model, and even performs better than such a hard baseline, i.e predicting value at _t+1_ by value of _t_.
+The results show that the recurrent model surpasses the MLP model, and even performs better than such a hard baseline, i.e predicting value at _t+1_ by value of _t_.
 
 Model | MAE training loss | MAE validation loss
 --- | --- | ---
@@ -15,5 +15,7 @@ Baseline | - | 0.721
 MLP | **0.316** | 0.872
 RNN (GRU) | 0.599 | **0.617**
 
+![MLP's training graph](https://github.com/iamsoroush/TehranAQI_Keras/blob/master/download.png "MLP")
+![RNN's training graph](https://github.com/iamsoroush/TehranAQI_Keras/blob/master/download%20(1).png "RNN")
 
-You can re-generate the results by guidelines presented in the [provided notebook](https://github.com/iamsoroush/TehranAQI_Keras/blob/master/tehranaqi.ipynb).
+**Note**: You can re-generate the results by guidelines presented in the [provided notebook](https://github.com/iamsoroush/TehranAQI_Keras/blob/master/tehranaqi.ipynb).
